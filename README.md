@@ -33,14 +33,14 @@ Simulation outputs are saved in the [`Results/`](Results/) directory.
 - MATLAB (R2020b or later)
 - [COBRA Toolbox for MATLAB](https://github.com/opencobra/cobratoolbox)
 - [RAVEN Toolbox](https://github.com/SysBioChalmers/RAVEN)
-- [SoPlex solver](https://soplex.zib.de/)
+- solver [SoPlex](https://soplex.zib.de/)
 
 Please ensure that all required toolboxes and solvers are properly installed and added to the MATLAB path before running the scripts.
 ---
 
 ## Contact
 
-**Lizheng Liu** (GitHub: @Zephyr-112), Institute of Biopharmaceutical and Health Engineering, Tsinghua Shenzhen International Graduate School, Tsinghua University, Shenzhen, China  
+**Lizheng Liu** ([GitHub: @Zephyr-112](https://github.com/Zephyr-112)), Institute of Biopharmaceutical and Health Engineering, Tsinghua Shenzhen International Graduate School, Tsinghua University, Shenzhen, China  
 
-**Feiran Li** (GitHub: @feiranl), Institute of Biopharmaceutical and Health Engineering, Tsinghua Shenzhen International Graduate School, Tsinghua University, Shenzhen, China
+**Feiran Li** ([GitHub: @feiranl](https://github.com/feiranl)), Institute of Biopharmaceutical and Health Engineering, Tsinghua Shenzhen International Graduate School, Tsinghua University, Shenzhen, China
 
