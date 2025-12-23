@@ -11,15 +11,18 @@ We built on the pcSecYeast model for *Saccharomyces cerevisiae* and developed pr
 ## Model Construction
 
 Proteome-constrained secretion models were constructed from a common template model using species-specific build scripts.  
-Models for *S. cerevisiae*, *K. phaffii*, and *K. marxianus* are generated using `buildModel_pcSecYeast.m`, `buildModel_pcSecPichia.m`, and `buildModel_pcSecKmarx.m`, respectively.
+Models for *S. cerevisiae*, *K. phaffii*, and *K. marxianus* are generated using  
+[`buildModel_pcSecYeast.m`](Code/pcSecYeast/buildModel_pcSecYeast.m),  
+[`buildModel_pcSecPichia.m`](Code/pcSecPichia/buildModel_pcSecPichia.m), and  
+[`buildModel_pcSecKmarx.m`](Code/pcSecKmarx/buildModel_pcSecKmarx.m), respectively.
 
 ---
 
 ## Simulation and Analysis
 
-All simulation scripts required to reproduce the analyses in the manuscript are included in the corresponding species folders under `Code/`.  
-Scripts to reproduce all manuscript figures are located in `Code/Figures/`. Each figure script loads the processed results and generates the corresponding plots.  
-Simulation outputs are saved in the `Results/` directory.
+All simulation scripts required to reproduce the analyses in the manuscript are provided in the corresponding species-specific folders under [`Code/`](Code/).  
+Scripts to reproduce all manuscript figures are located in [`Code/Figures/`](Code/Figures/); each figure script loads the processed results and generates the corresponding plots.  
+Simulation outputs are saved in the [`Results/`](Results/) directory.
 
 ---
 
@@ -28,10 +31,11 @@ Simulation outputs are saved in the `Results/` directory.
 ### Required software
 
 - MATLAB (R2020b or later)
-- COBRA Toolbox for MATLAB
-- RAVEN Toolbox
-- SoPlex solver
+- [COBRA Toolbox for MATLAB](https://github.com/opencobra/cobratoolbox)
+- [RAVEN Toolbox](https://github.com/SysBioChalmers/RAVEN)
+- [SoPlex solver](https://soplex.zib.de/)
 
+Please ensure that all required toolboxes and solvers are properly installed and added to the MATLAB path before running the scripts.
 ---
 
 ## Contact
