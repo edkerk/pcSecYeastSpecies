@@ -41,7 +41,8 @@ model = addMachineryComplex(model,protein_machinery,protein_info,Protein_stoichi
 %% Collect kcats for enzymes
 
 % use the one for with sec parameter
-load('Kcatenzymedata.mat');
+enzymedata = collectkcats(model);
+% load('Kcatenzymedata.mat');
 list = endsWith(model.rxns,'_translation');
 list = model.rxns(list);
 list = strrep(list,'r_','');
